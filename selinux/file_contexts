@@ -30,6 +30,7 @@
 /dev/ttySAC1                            u:object_r:gps_device:s0
 /system/bin/gps_daemon.sh               u:object_r:glgps_exec:s0
 /sys/devices/virtual/gpio/gpio128/value u:object_r:sysfs_gps:s0
+/data/gps(/.*)?                         u:object_r:gps_data_file:s0
 
 # Sensors
 /dev/akm8975                            u:object_r:sensors_device:s0
@@ -50,3 +51,4 @@
 
 # Misc
 /dev/HPD                                u:object_r:hpd_device:s0
+/dev/log(/.*)?                          u:object_r:log_device:s0

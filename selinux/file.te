@@ -7,3 +7,4 @@ type radio_data, file_type;
 type sysfs_radio, fs_type, sysfs_type;
 type sysfs_sensor, fs_type, sysfs_type;
 type cbd_device, dev_type;
+type gps_data_file, file_type, data_file_type;

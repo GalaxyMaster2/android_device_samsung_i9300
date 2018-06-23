@@ -54,6 +54,7 @@ RECOVERY_FSTAB_VERSION := 2
 TARGET_POWERHAL_VARIANT := pegasusq
 
 # Selinux
+BOARD_SEPOLICY_VERS := 25.0
 BOARD_SEPOLICY_DIRS += \
     device/samsung/i9300/selinux
 

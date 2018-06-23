@@ -1,3 +1,5 @@
 type rfkill_device, dev_type;
 type efs_block_device, dev_type;
 type hpd_device, dev_type;
+type log_device, dev_type, mlstrustedobject;
+type gps_device, dev_type;
